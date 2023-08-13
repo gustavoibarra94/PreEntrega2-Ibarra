@@ -43,11 +43,15 @@ width: 25rem;
 
 {
     display: flex;
-    flex-direction: row-reverse; 
-    padding: 1rem;
-    
-
+    -ms-flex-item-align: center;
+    margin-left: auto;
+    padding: 0.7rem;
+    width: 11rem;
+    height: 3rem;
+    justify-content: center;
+    margin-bottom: 2rem;
 }
+
 
 ul p
 
@@ -88,4 +92,12 @@ ul p
 {
     margin-top: 1rem;
 
+}
+
+.comprar
+{
+
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
 }
