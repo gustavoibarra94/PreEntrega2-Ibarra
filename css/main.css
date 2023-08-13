@@ -61,7 +61,16 @@
 
 }
 
+.caja-formulario
+{
+    display: flex;
+    justify-content: center;
+    
+}
 
 
+.formulario
+{
 
-
+width: 25rem;
+}
