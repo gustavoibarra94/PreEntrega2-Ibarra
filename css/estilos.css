@@ -1,0 +1,72 @@
+@font-face {
+  font-family: "papyrus";
+  src: url("../fonts/papyrus.ttf");
+}
+* {
+  margin: 0rem;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: x-large;
+  font-family: "papyrus";
+}
+
+.caja-formulario {
+  display: flex;
+  justify-content: center;
+  margin-top: 1.5rem;
+}
+
+.formulario {
+  width: 25rem;
+}
+
+.linkacontacto {
+  display: flex;
+  -ms-flex-item-align: center;
+  margin-left: auto;
+  padding: 0.7rem;
+  width: 11rem;
+  height: 3rem;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+ul p {
+  font-size: large;
+}
+
+.bajo-banner {
+  text-align: center;
+  padding: 1rem;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.juegos {
+  padding: 1rem;
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.personajes {
+  text-align: center;
+}
+
+.personajes h3 {
+  margin-top: 1rem;
+}
+
+.tarjetas {
+  margin-top: 1rem;
+}
+
+.comprar {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.titulonosotros {
+  margin-top: 1rem;
+}/*# sourceMappingURL=estilos.css.map */
