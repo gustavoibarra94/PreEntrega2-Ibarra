@@ -1,21 +1,64 @@
+// Estilos generales
+
+.container{
+
+    h2{
+        font-size: xx-large;
+        font-weight: bold;
+    }
+
+    p {
+        font-size: large;
+    }
+
+
+}
+
+
+
+ul {
+
+    font-weight: bold;
+
+
+    p {
+        font-size: large;
+        font-weight: normal;
+        
+
+    }
+
+
+
+
+}
+
+
+
+
 // Estilo de página de Contacto 
 
 
 
+
+
+
+
+
+    
 .caja-formulario
 {
-    display: flex;
-    justify-content: center;
+    @include flex-just;
     margin-top: 1.5rem;
+
+    .formulario
+    { width: 25rem;}
+
+
     
 }
 
 
-.formulario
-{
-
-width: 25rem;
-}
 
 
 
@@ -27,22 +70,16 @@ width: 25rem;
 .linkacontacto
 
 {
-    display: flex;
+    @include flex-just;
     -ms-flex-item-align: center;
     margin-left: auto;
     padding: 0.7rem;
     width: 11rem;
     height: 3rem;
-    justify-content: center;
     margin-bottom: 2rem;
 }
 
-ul p
 
-{ 
-
-  font-size: large;
-}
 
 
 
@@ -54,11 +91,7 @@ ul p
     padding: 1rem;
     margin-top: 0.5rem;
     margin-bottom: 1rem;
-    
-    
-
 }
-
 
 
 
@@ -78,15 +111,14 @@ ul p
 {
     text-align: center;
     
+        h3
+        {margin-top: 1rem;}
+
 
 }
 
-.personajes h3
-{
 
-    margin-top: 1rem;
 
-}
 
 .tarjetas
 {
@@ -97,8 +129,7 @@ ul p
 .comprar
 {
 
-    display: flex;
-    justify-content: center;
+    @include flex-just;
     padding: 1rem;
 }
 

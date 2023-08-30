@@ -4,3 +4,8 @@
  
 }
 
+
+@mixin flex-just {
+    display: flex;
+    justify-content: center;
+}
