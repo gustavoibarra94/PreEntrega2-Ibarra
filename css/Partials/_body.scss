@@ -54,9 +54,14 @@ ul {
     .formulario
     { width: 25rem;}
 
+    div {
 
+        padding-left: 15px;
+    }
     
+  
 }
+
 
 
 
@@ -67,9 +72,7 @@ ul {
 // Estilo de página de FAQ 
 
 
-.linkacontacto
-
-{
+.linkacontacto {
     @include flex-just;
     -ms-flex-item-align: center;
     margin-left: auto;
@@ -79,6 +82,11 @@ ul {
     margin-bottom: 2rem;
 }
 
+.faq {
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
 
 
 
@@ -141,4 +149,35 @@ ul {
 .titulonosotros
 { 
     margin-top: 1rem;
+}
+
+
+// media
+
+@media screen and (max-width: 612px) {
+
+    p {
+
+        padding-left: 15px;
+    }
+
+    h2 {
+
+        padding-left: 15px;
+    }
+
+
+    
+}
+
+
+@media screen and (max-width: 991px) {
+
+    .linkacontacto {
+        
+        margin: auto;
+        padding-left: 15px;
+        
+    }
+    
 }
